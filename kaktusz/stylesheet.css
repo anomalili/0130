@@ -1,0 +1,49 @@
+body {margin: auto; font-family:'Bebas Neue', cursive;}
+main {margin: auto; max-width: 800px; grid-template-areas: 
+    "h h h" 
+    "n n n"
+    "a a a"
+    "f f f";
+display: grid;}
+header {background-color: #00BFFF; max-width: 800px; text-align: center; color: white; border-radius: 10px; grid-area: h; padding: 5px; border: #0088CC solid 5px;}
+nav {background-color: #0088CC ; color: gold; max-width: 800px; border-radius: 10px; grid-area: n; padding: 5px; text-align: left; margin-top: 5px; overflow: hidden;}
+nav a {color: gold; text-decoration: none; padding: 5px;}
+.kep {background-color: #00BFFF; max-width: 250px; }
+article img {width: 100%; max-width: 200px; padding: 5px;border: #0088CC solid 5px; text-align: center; margin-top: 30px; background-color: #00BFFF;}
+article {max-width: 800px; border-radius: 10px; grid-area: a; float: right;padding: 5px;}
+.szoveg {background-color: #00BFFF; border-radius: 10px; float: right; max-width: 550px; border: #0088CC solid 5px;}
+footer {background-color: #00BFFF; max-width: 800px; border-radius: 10px; grid-area: f; text-align:center;padding: 5px; border: #0088CC solid 5px; color: white;}
+
+.navigacio {max-width: 100px; float: left;}
+.galeria { max-width: 200px; width: 100%;}
+
+
+
+.galeria{ max-width: 800px; margin:auto; margin-left: 25px;}
+   .galeria>div{
+
+
+    float:left;
+    line-height:100px;
+    text-align:center;    
+   }
+   .galeria>div>img{
+    display:inline-block;
+    vertical-align:middle;
+    max-width:80%;
+    max-height:80%;
+   }
+
+@media only screen and (max-width: 700px) 
+
+{
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    
+
+    }
+    .navigacio {width: 100%; max-width: 250px; text-align: center; margin: auto;}
+
+    .galeria {float: left;}
+}
